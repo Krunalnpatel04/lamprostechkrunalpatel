@@ -1,23 +1,14 @@
 Public Static prerequisites.(){
   public static void main(String args[]){
-      int[] arr={5,2,5,3,5,3,1};
-      ArrayList<INTEGER> arr1=new ArrayList<>;
-      for(int i=o;i<arr.length;i++){
-          int count=1;
-        for(int k=0;k<arr1.length;k++){
-          if(arr[i]==arr1[k]){
-            continue;
-          }
+      int []arr={10,2,4,5};
+      String []arr1={"A","B","C","D"};
+    int max=arr[0];
+    Sting s="";
+    for(int i=0;i<arr.length();i++){
+      for(int j=i+1;j<arr.length();j++){
+        if(arr[j]>max){
+          max=arr[j];
         }
-
-        for(int j=i+1;j<arr.length;j++){
-            
-          if(arr[i]==arr[j]){
-                count++;
-            }
-          if(count>1){
-            arr1.add(arr[i]);
-          }
-        }
+      }
   }
 }
